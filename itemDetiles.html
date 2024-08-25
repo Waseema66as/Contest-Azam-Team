@@ -1,0 +1,339 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/global.css" />
+  <link rel="stylesheet" href="./style/index.css" />
+  <link rel="stylesheet" href="./style/modal.css" />
+  <link rel="stylesheet" href="./style/navb.css" />
+  <link rel="stylesheet" href="./style/cart.css" />
+  <link rel="stylesheet" href="./style/itemdetails-bag-full.css.css" />
+  <link rel="stylesheet" href="./style/carousel.CSS" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant SC:wght@400&display=swap" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:ital,wght@0,400;0,700;1,400&display=swap" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+</head>
+<style>
+  a {
+    text-decoration: none;
+    color: rgb(0 0 0);
+  }
+
+  .card-cat:hover {
+    opacity: 0.5;
+  }
+</style>
+
+<body>
+  <div class="">
+    <nav class="position-relative">
+      <div class="wrapper">
+        <div class="logo"><a href="index.html">
+            <h1 class="a-p-o">A P O L L O N I A N</h1>
+          </a></div>
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus-full.html">About</a></li>
+          <li> <a href="#ex1" rel="modal:open">Open Modal</a></li>
+          <li>
+            <a href="#" class="desktop-item ">JEWELRY</a>
+            <input type="checkbox" id="showMega">
+            <label for="showMega" class="mobile-item">JEWELRY</label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="public/about-us@2x.png" alt="">
+                </div>
+                <div class="row">
+                  <header>Design Services</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Graphics</a></li>
+                    <li><a href="#">Vectors</a></li>
+                    <li><a href="#">Business cards</a></li>
+                    <li><a href="#">Custom logo</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Email Services</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Personal Email</a></li>
+                    <li><a href="#">Business Email</a></li>
+                    <li><a href="#">Mobile Email</a></li>
+                    <li><a href="#">Web Marketing</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Security services</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Site Seal</a></li>
+                    <li><a href="#">VPS Hosting</a></li>
+                    <li><a href="#">Privacy Seal</a></li>
+                    <li><a href="#">Website design</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="d-flex">
+            <div class="header-content">
+              <div class="heart-biperson" id="bag-button">
+                <img class="header-heart-real" loading="lazy" alt="" src="./public/header-heart-real.svg" />
+              </div>
+              <div class="bag-button" id="bag-button1">
+                <img class="bag-button-icon" loading="lazy" alt="" src="./public/bag-button.svg" />
+              </div>
+              <div class="heart-biperson1">
+                <img class="biperson-icon" loading="lazy" alt="" src="./public/biperson.svg" />
+              </div>
+            </div>
+
+          </li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+      </div>
+      <!-- cart-page cart-pagecart-pagecart-page -->
+      <div class="bag border  position-absolute  bag-cart  end-0 ">
+        <div class="cart">
+          <section class="cart-page pb-3">
+            <header class="empty d-flex justify-content-between border-bottom-1 px-2">
+              <div class="cart-item-container-parent">
+                <a class="in-my-bag">In My Bag</a>
+              </div>
+              <div class="cart-close-button" id="bag-close">
+                <img class="close-x-icon" loading="lazy" alt="" src="./public/close-x.svg" />
+              </div>
+            </header>
+            <div class="sample-checkout-item-wrapper">
+              <div class="sample-checkout-item  ">
+                <div class="item-in-cart d-flex justify-content-between px-2">
+                  <img class="image-25-icon" loading="lazy" alt="" src="./public/image-25@2x.png" />
+                  <div class="sample-item-details  d-flex justify-content-between">
+                    <div class="sample-item-name">
+                      <div class="item-name">
+                        <a class="sample-item">SAMPLE ITEM</a>
+                        <div class="item-description">$100.00</div>
+                      </div>
+                      <div class="quantity-1">Quantity: 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sample-checkout-item-wrapper">
+              <div class="sample-checkout-item  ">
+                <div class="item-in-cart d-flex justify-content-between px-2">
+                  <img class="image-25-icon" loading="lazy" alt="" src="./public/image-16@2x.png" />
+                  <div class="sample-item-details  d-flex justify-content-between">
+                    <div class="sample-item-name">
+                      <div class="item-name">
+                        <a class="sample-item">SAMPLE ITEM</a>
+                        <div class="item-description">$100.00</div>
+                      </div>
+                      <div class="quantity-1">Quantity: 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sample-checkout-item-wrapper">
+              <div class="sample-checkout-item  ">
+                <div class="item-in-cart d-flex justify-content-between px-2">
+                  <img class="image-25-icon" loading="lazy" alt="" src="./public/image-23@2x.png" />
+                  <div class="sample-item-details  d-flex justify-content-between">
+                    <div class="sample-item-name">
+                      <div class="item-name">
+                        <a class="sample-item">SAMPLE ITEM</a>
+                        <div class="item-description">$100.00</div>
+                      </div>
+                      <div class="quantity-1">Quantity: 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+
+      </div>
+
+
+
+      <div id="ex1" class="modal" style="z-index: 999999;  height: 100px;">
+        <p class="text-dark">Thanks for clicking. That felt good.</p>
+        <a href="#" rel="modal:close">Close</a>
+      </div>
+    </nav>
+    <div class="p-5">
+      <section class="item-details-wrapper">
+        <div class="item-details">
+          <img class="image-25-icon2" id="plantImage" loading="lazy" />
+
+          <div class="item-info">
+            <form class="selection-and-details">
+              <div class="item-description1">
+                <div class="sample-and-lorem">
+                  <div class="sample-and-lorem-container">
+                    <div class="sample-item-and-added">
+                      <div class="sample-item-container">
+                        <h1 id="plantName">Plant Name</h1>
+                        <div class="wrapper">
+                          <b class="b">$100.00</b>
+                        </div>
+                      </div>
+                      <div class="lorem-ipsum-dolor-sit-amet-co-container">
+                        <h3 class="lorem-ipsum-dolor-container3">
+                          <p class="lorem-ipsum-dolor5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.
+                          </p>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="added-load-wrapper">
+                      <button class="added-load">
+                        <div class="added">ADDED</div>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="favorites-add-wrapper">
+                    <img class="favorites-add-icon" loading="lazy" alt="" src="./public/favorites-add.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="details-and-sizing">
+                <div class="details-parent">
+                  <div class="details">
+                    <div class="details1">DETAILS</div>
+                    <img class="icround-keyboard-double-arrow-icon" alt=""
+                      src="./public/icroundkeyboarddoublearrowdown.svg" />
+                  </div>
+                  <div class="sizing-wrapper">
+                    <div class="sizing">
+                      <div class="details2">TIPS & WARNINGS</div>
+                      <img class="icround-keyboard-double-arrow-icon1" alt=""
+                        src="./public/icroundkeyboarddoublearrowdown.svg" />
+                    </div>
+                  </div>
+                  <div class="local-details">
+                    <div class="local-availability-wrapper">
+                      <div class="local-availability">LOCAL AVAILABILITY</div>
+                    </div>
+                    <img class="cilocation-icon8" alt="" src="./public/cilocation-1.svg" />
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="local-details ">
+              <div class="local-availability-wrapper">
+                <div class="local-availability"></div>
+              </div>
+              <button type="button" class="btn btn-outline-dark">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="recommendations-and-extra text-lg-center">
+
+        <div class=" d-flex flex-wrap justify-content-around w-50 pt-4">
+          <div id="siblingsContainer" style="display: flex; gap: 20px;"></div>
+        </div>
+
+    </div>
+
+    </section>
+
+
+  </div>
+</body>
+<script>
+
+</script>
+<script src="scripts/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const plantId = urlParams.get('id');
+
+    // JSON file se data fetch karna
+    fetch("data.json")
+      .then((response) => response.json())
+      .then((data) => {
+        let foundPlant = null;
+        let siblings = [];
+
+        data.plants.forEach((plant) => {
+          plant.sub_categories.forEach((subCategory) => {
+            subCategory.data.forEach((item) => {
+              if (item.id == plantId) {
+                foundPlant = item;
+                siblings = subCategory.data.filter((siblingItem) => siblingItem.id != plantId);
+              }
+            });
+          });
+        });
+
+        // Agar id match ho jaye, to target plant aur siblings show karo
+        if (foundPlant) {
+          document.getElementById("plantName").textContent = foundPlant.name;
+          document.getElementById("plantImage").src = foundPlant.file_path;
+
+          // Siblings ko show karna
+          const siblingsContainer = document.getElementById("siblingsContainer"); 
+          siblings.forEach((sibling) => {
+            const siblingElement = document.createElement('div');
+
+            // Name element
+            const siblingName = document.createElement('p');
+            siblingName.textContent = sibling.name;
+
+            // Image element
+            const siblingImage = document.createElement('img');
+            siblingImage.src = sibling.file_path;
+            siblingImage.alt = sibling.name;
+            siblingImage.style.width = "200px";
+            siblingImage.style.height = "200px";
+
+            // Add click event to change main image and name
+            siblingImage.addEventListener('click', function () {
+              // Change main image to sibling image
+              document.getElementById("plantImage").src = sibling.file_path;
+              
+              // Change plant name to sibling name
+              document.getElementById("plantName").textContent = sibling.name;
+            });
+
+            // Append name and image
+            siblingElement.appendChild(siblingImage);
+            siblingElement.appendChild(siblingName);
+            siblingsContainer.appendChild(siblingElement);
+          });
+        } else {
+          console.log("Plant not found");
+        }
+      })
+      .catch((error) => console.error('Error fetching data:', error));
+  });
+
+</script>
+
+</html>

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+  
+    background-image: url('../images/types-of-indoor-plant-types-cover-image.jpg');
+    background-size: cover;
+  
+}
+
+.main-contact{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+  background: #1f242d8a;
+}
+.contact h2{
+    font-size: 40px;
+    color: #ededed;
+    text-align: center;
+    margin-bottom: 0;
+}
+.contact form{
+    width: 600px;
+    text-align: center;
+}
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+.input-box .input-field{
+    width: 48.5%;
+}
+.field .item{
+    width: 100%;
+    padding: 16px;
+    background: transparent;
+    border: 2px solid #f3e7dd;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #ededed;
+    margin: 8px 0;
+}
+.field.error .item{
+border-color: #d93025;
+}
+.field .item::placeholder{
+    color: rgba(255, 255, 255, .3);
+}
+.field .error-txt{
+    font-size: 14.5px;
+    color: #d93025;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+}
+.field.error .error-txt{
+    display: block;
+}
+form .textarea-field .item{
+    resize: none;
+}
+form .textarea-field .error-txt{
+    margin-top: -10px;
+}
+form button{
+    padding: 12px 32px;
+    background: #f3e7dd;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #f3e7dd;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: .5s;
+}
+form button :hover{
+    box-shadow: none;
+}

@@ -1,0 +1,135 @@
+
+.heading8,
+.overlay1 {
+  overflow: hidden;
+  max-width: 100%;
+} 
+.overlay1 {
+  width: 1512px;
+  height: 859px;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.69),
+    rgba(0, 0, 0, 0.26) 58.93%,
+    transparent
+  );
+  flex-shrink: 0;
+  display: none;
+  z-index: 0;
+}
+.screenshot-2022-11-25-at-159 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.about-us8,
+.l-i-n-e {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.about-us8 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.l-i-n-e {
+  height: 1px;
+  border-top: 1px solid rgba(235, 235, 235, 0.49);
+  box-sizing: border-box;
+}
+.about-us-parent2 {
+  width: 614px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl-5);
+  max-width: 100%;
+}
+.become-accustomed-to,
+.span3 {
+  font-family: var(--font-karla);
+}
+.blank-line3,
+.this-is-an-about-us-page-for-t {
+  margin: 0;
+}
+.aliqua1 {
+  color: var(--color-gray-900);
+}
+.span4 {
+  color: var(--color-white);
+}
+.aliqua {
+  font-family: var(--font-karla);
+}
+.blank-line4,
+.blank-line5,
+.duis-aute-irure,
+.lorem-ipsum-dolor-sit-amet-co {
+  margin: 0;
+}
+ 
+.this-is-an-container {
+  margin: 0;
+  width: 614px;
+  position: relative;
+  font-size: var(--font-size-4xl);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  color: var(--color-gray-1000);
+  font-family: var(--font-karla);
+}
+.f-r-a-m-e1,
+.page {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.f-r-a-m-e1 {
+  background: linear-gradient(0deg, transparent, rgba(255, 255, 255, 0));
+  overflow: hidden;
+  padding: 135px 103px 114px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 34.5px;
+  z-index: 1;
+  margin-top: -3px;
+}
+.page {
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-cormorant-garamond);
+}
+ 
+.about-us-bag-full {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-16xl);
+  line-height: normal;
+  letter-spacing: normal;
+} 

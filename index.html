@@ -1,0 +1,536 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/global.css" />
+  <link rel="stylesheet" href="./style/index.css" />
+  <link rel="stylesheet" href="./style/modal.css" />
+  <link rel="stylesheet" href="./style/navb.css" />
+  <link rel="stylesheet" href="./style/cart.css" />
+  <link rel="stylesheet" href="./style/carousel.CSS" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="./style/signup-.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant SC:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant SC:wght@400&display=swap" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:ital,wght@0,400;0,700;1,400&display=swap" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+</head>
+<style>
+  a {
+    text-decoration: none;
+    color: rgb(0 0 0);
+  }
+
+  .card-cat:hover {
+    opacity: 0.5;
+  }
+</style>
+
+<body>
+  <div class="landing-bag-full">
+    <nav class="position-relative">
+      <div class="wrapper">
+        <div class="logo"><a href="index.html">
+            <h1 class="a-p-o">A P O L L O N I A N</h1>
+          </a></div>
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">contact US</a></li>
+          <li><a href="aboutus-full.html">About</a></li>
+          <li><a href="lightbox-img_gallery/index.html">Gallery</a></li>
+          <li>
+            <a href="#" class="desktop-item ">category</a>
+            <input type="checkbox" id="showMega">
+            <label for="showMega" class="mobile-item">category</label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="public/about-us@2x.png" alt="">
+                </div>
+                <div class="row">
+                  <header>Design Services</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Graphics</a></li>
+                    <li><a href="#">Vectors</a></li>
+                    <li><a href="#">Business cards</a></li>
+                    <li><a href="#">Custom logo</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Email Services</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Personal Email</a></li>
+                    <li><a href="#">Business Email</a></li>
+                    <li><a href="#">Mobile Email</a></li>
+                    <li><a href="#">Web Marketing</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Security services</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Site Seal</a></li>
+                    <li><a href="#">VPS Hosting</a></li>
+                    <li><a href="#">Privacy Seal</a></li>
+                    <li><a href="#">Website design</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="d-flex">
+            <div class="header-content">
+              <div class="heart-biperson" id="bag-button">
+                <img class="header-heart-real" loading="lazy" alt="" src="./public/header-heart-real.svg" />
+              </div>
+              <div class="bag-button" id="bag-button1">
+                <img class="bag-button-icon" loading="lazy" alt="" src="./public/bag-button.svg" />
+              </div>
+              <div class="heart-biperson1">
+                <a href="#ex1" rel="modal:open">
+                  <img class="biperson-icon" loading="lazy" alt="" src="./public/biperson.svg" />
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+      </div>
+      <div class="bag border  position-absolute  bag-cart  end-0 ">
+        <div class="cart">
+          <section class="cart-page pb-3">
+            <header class="empty d-flex justify-content-between border-bottom-1 px-2">
+              <div class="cart-item-container-parent">
+                <a class="in-my-bag">In My Bag</a>
+              </div>
+              <div class="cart-close-button" id="bag-close">
+                <img class="close-x-icon" loading="lazy" alt="" src="./public/close-x.svg" />
+              </div>
+            </header>
+            <div class="sample-checkout-item-wrapper">
+              <div class="sample-checkout-item  ">
+                <div class="item-in-cart d-flex justify-content-between px-2">
+                  <img class="image-25-icon" loading="lazy" alt="" src="./public/image-25@2x.png" />
+                  <div class="sample-item-details  d-flex justify-content-between">
+                    <div class="sample-item-name">
+                      <div class="item-name">
+                        <a class="sample-item">SAMPLE ITEM</a>
+                        <div class="item-description">$100.00</div>
+                      </div>
+                      <div class="quantity-1">Quantity: 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sample-checkout-item-wrapper">
+              <div class="sample-checkout-item  ">
+                <div class="item-in-cart d-flex justify-content-between px-2">
+                  <img class="image-25-icon" loading="lazy" alt="" src="./public/image-16@2x.png" />
+                  <div class="sample-item-details  d-flex justify-content-between">
+                    <div class="sample-item-name">
+                      <div class="item-name">
+                        <a class="sample-item">SAMPLE ITEM</a>
+                        <div class="item-description">$100.00</div>
+                      </div>
+                      <div class="quantity-1">Quantity: 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sample-checkout-item-wrapper">
+              <div class="sample-checkout-item  ">
+                <div class="item-in-cart d-flex justify-content-between px-2">
+                  <img class="image-25-icon" loading="lazy" alt="" src="./public/image-23@2x.png" />
+                  <div class="sample-item-details  d-flex justify-content-between">
+                    <div class="sample-item-name">
+                      <div class="item-name">
+                        <a class="sample-item">SAMPLE ITEM</a>
+                        <div class="item-description">$100.00</div>
+                      </div>
+                      <div class="quantity-1">Quantity: 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+   
+
+    </nav>
+    <section class="w-100">
+      <div class="position-relative" style="margin-top: -2%;">
+        <div class="pic-ctn w-100">
+          <!-- <img class="w-100" src="public/Default_Create_a_highresolution_image_of_a_luxurious_ruby_ring_1.jpg" alt="" class="pic"> -->
+          <img class="w-100" src="images/brandon-cormier-5IeNo4-rkQs-unsplash.jpg" alt=""
+            class="pic">
+          <img class="w-100" src="images/annie-spratt-VPz1ai6val8-unsplash.jpg" alt="" class="pic">
+          <img class="w-100" src="images/derek-truninger-X5-bQAOsS2Y-unsplash.jpg" alt="" class="pic">
+          <img class="w-100" src="images/annie-spratt-VPz1ai6val8-unsplash.jpg" alt="" class="pic">
+          <img class="w-100" src="images/derek-truninger-X5-bQAOsS2Y-unsplash.jpg" alt="" class="pic">
+
+          <!-- <img class="w-100" src="https://picsum.photos/200/300?t=5" alt="" class="pic"> -->
+        </div>
+        <div class="fall-arrival-parent">
+          <span style="margin-left: 16rem;">
+            <!-- <div class="search-container">
+              <div class="search-input">
+                <input class="search" placeholder="Search" type="text" />
+
+                <div class="search-icon">
+                  <img class="ant-designsearch-outlined-icon" alt="" src="./public/antdesignsearchoutlined.svg" />
+                </div>
+              </div>
+            </div> -->
+          </span>
+          <div class="fall-arrival">
+            <span>
+              <h1 class="the-autumn-equinox" style="font-size: 50px;">the autumn equinox</h1>
+            </span>
+            <div class="new-releases">
+              <h2 class="fall-has-arrived-container">
+                <p class="fall-has-arrived">Fall has arrived.</p>
+                <p class="shop-for-our">
+                  Shop for our new releases starting today.
+                </p>
+              </h2>
+            </div>
+          </div>
+          <div class="shop-button">
+            <a href="#shop-now">
+              <button class="btn btn-outline-dark">SHOP NOW</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="rectangle-parent">
+      <div class="frame-child"></div>
+      <div class="category-content">
+        <div class="category-heading">
+          <h1 class="shop-by-category" id="shop-now">Categories</h1>
+          <div class="indulge-in-what-we-offer-wrapper">
+            <h1 class="indulge-in-what">Plants available for purchase.</h1>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 d-flex  justify-content-center">
+        <div class="w-50 d-flex justify-content-around flex-wrap gap-2">
+          <button type="button" id="original" class="btn btn-outline-dark">Indoor</button>
+          <button type="button" id="semi" class="btn btn-outline-dark">Outdoor</button>
+          <button type="button" id="artificial" class="btn btn-outline-dark">Artificial</button>
+        </div>
+      </div>
+      <div class="jewelry-categories original Indoor">
+        <div class="front-necklace position-relative" id="frontNECKLACEContainer">
+          <a href="items.html?id=11">
+            <div class="w-100 h-100 bg-black">
+              <img class=" card-cat img category-images-icon" loading="lazy" alt="" src="./images/Indoor/Birds of Paradise/1.jpg" />
+            </div>
+            <div class="category-names">
+              <h2 class="necklaces">Flowering Plants</h2>
+            </div>
+          </a>
+        </div>
+        <div class="front-items ">
+          <a href="items.html?id=12">
+            <img class=" card-cat  img front-items-child" alt="" src="./images/Indoor/Fiddle Leaf Fig/6.jpg" />
+            <div class="items-wrapper">
+              <h2 class="items">Climbing Plants</h2>
+            </div>
+          </a>
+        </div>
+        <div class="front-bracelets">
+          <a href="items.html?id=13">
+            <img class=" card-cat img front-bracelets-child" alt="" src="./images/Indoor/Golden Pathos/13.jpg" />
+            <div class="bracelets-wrapper">
+              <h2 class="bracelets">Evergreen Plants</h2>
+            </div>
+          </a>
+        </div>
+        <div class="front-rings">
+          <a href="items.html?id=14">
+            <img class=" card-cat img front-rings-child" alt="" src="./images/Indoor/Birds of Paradise/3.jpg" />
+            <div class="rings-wrapper">
+              <h2 class="rings">Shrubs and Bushes</h2>
+            </div>
+          </a>
+        </div>
+            <div class="front-bracelets">
+          <a href="items.html?id=13">
+            <img class=" card-cat img front-bracelets-child" alt="" src="./images/Indoor/Birds of Paradise/1.jpg" />
+            <div class="bracelets-wrapper">
+              <h2 class="bracelets">Evergreen Plants</h2>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="jewelry-categories Semi Outdoor">
+
+        <div class="front-items ">
+          <a href="items.html?id=21">
+            <img class=" card-cat  img front-items-child" alt="" src="./images/outdoor/evergreen plant/Camellia.jpg" />
+            <div class="items-wrapper">
+              <h2 class="items"></h2>Flowering Plants</h2>
+            </div>
+          </a>
+        </div>
+        <div class="front-bracelets">
+          <a href="items.html?id=22">
+            <img class=" card-cat img front-bracelets-child" alt="" src="./images/outdoor/evergreen plant/mahonia.jpg" />
+            <div class="bracelets-wrapper">
+              <h2 class="bracelets">Climbing Plants</h2>
+            </div>
+          </a>
+        </div>
+        <div class="front-charms ">
+          <a href="items.html?id=23">
+            <img class="card-cat img front-charms-child" loading="lazy" alt="" src="./images/outdoor/shurb and bushes/holly.jpg" />
+            <div class="charms-wrapper">
+              <h2 class="charms">Evergreen Plants</h2>
+            </div>
+          </a>
+        </div>
+        <div class="front-necklace position-relative" id="frontNECKLACEContainer">
+          <a href="items.html?id=24">
+            <img class=" card-cat img category-images-icon" loading="lazy" alt="" src="./images/outdoor/flowering plant/cone-flower.jpg" />
+            <div class="category-names">
+              <h2 class="necklaces">Shrubs and Bushes</h2>
+            </div>
+          </a>
+        </div>
+        <div class="front-rings">
+          <a href="items.html?id=21">
+            <img class=" card-cat img front-rings-child" alt="" src="./images/outdoor/evergreen plant/mirror blush.jpg" />
+            <div class="rings-wrapper">
+              <h2 class="rings">Climbing Plants</h2>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+      <div class="jewelry-categories Artificial">
+        <div class="front-charms ">
+          <a href="items.html?id=31">
+            <img class="card-cat img front-charms-child" loading="lazy" alt="" src="./images/Indoor/Golden Pathos/13.jpg" />
+            <div class="charms-wrapper">
+              <h2 class="charms">Flowering Plants</h2>
+            </div>
+          </a>
+        </div>
+        <div class="front-bracelets">
+          <a href="items.html?id=32">
+            <img class=" card-cat img front-bracelets-child" alt="" src="./images/Indoor/Golden Pathos/13.jpg" />
+            <div class="bracelets-wrapper">
+              <h2 class="bracelets">Climbing Plants</h2>
+            </div>
+          </a>
+        </div>
+        <div class="front-rings">
+          <a href="items.html?id=33">
+            <img class=" card-cat img front-rings-child" alt="" src="./images/Indoor/String of Pearl/24.jpg" />
+            <div class="rings-wrapper">
+              <h2 class="rings">Evergreen Plants</h2>
+            </div>
+          </a>
+        </div>
+        <div class="front-necklace position-relative" id="frontNECKLACEContainer">
+          <a href="items.html?id=32">
+            <img class=" card-cat img category-images-icon" loading="lazy" alt="" src="./images/Indoor/Golden Pathos/13.jpg" />
+            <div class="category-names">
+              <h2 class="necklaces">Climbing Plants</h2>
+            </div>
+          </a>
+        </div>
+        <div class="front-items ">
+          <a href="items.html?id=34">
+            <img class=" card-cat  img front-items-child" alt="" src="/images/Indoor/Fiddle Leaf Fig/7.jpg" />
+            <div class="items-wrapper">
+              <h2 class="items">Shrubs and Bushes</h2>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="gift-promo mt-5">
+      <div class="promo-content" style="background-color: 0F0D0D; color: aliceblue;">
+        <img class="promo-image-icon" loading="lazy" alt="" src="./images/outdoor/climbing plant/honeysuckle.jpg" />
+        <div class="gift-description">
+          <div class="season-gifts">
+            <div class="gifts-title">
+              <h1 class="gifts-of-the">During the golden hour.</h1>
+              <div class="lorem-ipsum-dolor-sit-amet-co-wrapper">
+                <h2 class="lorem-ipsum-dolor-container1">
+                  <p class="lorem-ipsum-dolor1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Metus vulputate eu scelerisque felis imperdiet
+                    proin fermentum. Cras semper auctor neque vitae tempus
+                    quam pellentesque. Elementum sagittis vitae et leo duis.
+                  </p>
+                </h2>
+              </div>
+            </div>
+            <div class="shop-button " style="margin-bottom: 20px;">
+              <button type="button" class="btn btn-outline-light">READMORE</button>
+              <!-- <button class="btn btn-outline-dark">READMORE</button> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="gift-promo">
+      <div class="promo-content">
+        <div class="promo-content-child"></div>
+        <div class="gift-description">
+          <div class="season-gifts">
+            <div class="gifts-title">
+              <h1 class="gifts-of-the">Gifts of the season</h1>
+              <div class="lorem-ipsum-dolor-sit-amet-co-wrapper">
+                <h2 class="lorem-ipsum-dolor-container1">
+                  <p class="lorem-ipsum-dolor1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Metus vulputate eu scelerisque felis imperdiet
+                    proin fermentum. Cras semper auctor neque vitae tempus
+                    quam pellentesque. Elementum sagittis vitae et leo duis.
+                  </p>
+                </h2>
+              </div>
+            </div>
+            <div class="shop-button">
+              <!-- <button type="button" class="btn btn-outline-light">READMORE</button> -->
+              <button class="btn btn-outline-dark">SHOP GIFTS</button>
+            </div>
+          </div>
+        </div>
+        <img class="promo-image-icon" loading="lazy" alt="" src="./images/Indoor/String of Pearl/23.jpg" />
+      </div>
+    </section>
+    <footer class="extra-info">
+      <div class="footer-content">
+        <div class="footer-links-parent">
+          <div class="footer-links">
+            <div class="customer-support">
+              <div class="customer-service">
+                <div class="service-heading">
+                  <b class="customer-services">CUSTOMER SERVICES</b>
+                </div>
+                <div class="contact-link">
+                  <div class="contact-us">Contact Us</div>
+                </div>
+                <div class="track-your-order">Track your Order</div>
+                <div class="shipping-returns">
+                  <div class="shipping-container">
+                    <div class="shipping-returns1">Shipping & Returns</div>
+                    <div class="faq-appointment">
+                      <div class="frequently-asked-questions">
+                        Frequently Asked Questions
+                      </div>
+                      <div class="schedule-an-appointment">
+                        Schedule an appointment
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="about-us-parent">
+                <b class="about-us2">ABOUT US</b>
+                <div class="origins">Origins</div>
+                <div class="our-purpose">Our Purpose</div>
+                <div class="about-links">
+                  <div class="careers">Careers</div>
+                </div>
+                <div class="about-links1">
+                  <div class="sustainability">Sustainability</div>
+                </div>
+                <div class="about-links2">
+                  <div class="giving-back">Giving Back</div>
+                </div>
+              </div>
+              <div class="material-care-parent">
+                <b class="material-care">MATERIAL CARE</b>
+                <div class="jewelry-repair">Jewelry Repair</div>
+                <div class="ring-sizing">Ring Sizing</div>
+                <div class="metal-allergy-resources">
+                  Metal Allergy Resources
+                </div>
+                <div class="styling-tips">Styling Tips</div>
+              </div>
+              <div class="main-locations-parent">
+                <b class="main-locations">MAIN LOCATIONS</b>
+                <div class="chicago-il">Chicago, IL</div>
+                <div class="san-francisco-ca">San Francisco, CA</div>
+                <div class="new-york-ny">New York, NY</div>
+                <div class="seattle-wa">Seattle, WA</div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-legal">
+            <div class="footer-legal-container">
+              <div class="copyright-container">
+                <div class="apollonian-llc">© APOLLONIAN, LLC</div>
+              </div>
+              <div class="policy-links-container">
+                <div class="privacy-policy">
+                  PRIVACY POLICY • TERMS OF USE • SITEMAP • DO NOT SELL MY
+                  INFORMATION • COOKIES
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content-inner">
+          <div class="frame-item"></div>
+        </div>
+      </div>
+      <div class="newsletter">
+        <div class="newsletter-container">
+          <div class="newsletter-content">
+            <h2 class="you-can-be">You can be one step ahead.</h2>
+            <h3 class="sign-up-to">
+              Sign up to hear about our updates on the dot.
+            </h3>
+          </div>
+          <div class="signup-container">
+            <div class="signup-form align-items-center">
+              <div class="your-email-address px-2"> <input type="text" placeholder="Your email address"
+                  class="text-decoration-none border-0 h-75"></div>
+              <div class="sign-up">SIGN UP</div>
+            </div>
+          </div>
+          <div class="socials-container">
+            <img class="socials-icon" loading="lazy" alt="" src="./public/socials.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="empty-container"></div>
+    </footer>
+  </div>
+
+</body>
+<script>
+
+</script>
+<script src="scripts/script.js"></script>
+<script src="scripts/auth.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+</html>

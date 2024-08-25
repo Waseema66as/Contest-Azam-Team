@@ -1,0 +1,129 @@
+.bag-cart{
+display: none;
+}
+.in-my-bag {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+.cart-item-container-parent {
+  width: 203px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.close-x-icon {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.empty {
+  align-self: stretch;
+  background: #f5eee8;
+  font-size: var(--font-size-9xl);
+}
+
+.image-25-icon {
+  height: 100px;
+  width: 99px;
+  position: relative;
+  object-fit: cover;
+}
+.item-description,
+.sample-item {
+  align-self: stretch;
+  position: relative;
+}
+.sample-item {
+  text-decoration: none;
+  color: inherit;
+}
+.item-description {
+  color: var(--color-dimgray-1100);
+  white-space: nowrap;
+}
+.item-name {
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.quantity-1 {
+  width: 145px;
+  position: relative;
+  color: var(--color-dimgray-700);
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.modal a.close-modal{
+  display: none;
+}
+
+.item-in-cart {
+ 
+  overflow: hidden;
+  z-index: 1;
+}
+.sample-checkout-item {
+  flex: 1;
+
+  max-width: 100%;
+}
+.cart-page,
+.sample-checkout-item-wrapper {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.sample-checkout-item-wrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lgi) 0 var(--padding-7xl);
+  box-sizing: border-box;
+}
+.cart-page {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-700);
+  font-family: var(--font-karla);
+}
+.checkout {
+  margin: 0;
+  width: 172px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+
+.cart {
+  width: 340px;
+  position: relative;
+  background-color: var(--color-white);
+  border-left: 1px solid var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  gap: 20px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+
+/*  */

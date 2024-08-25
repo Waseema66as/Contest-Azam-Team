@@ -1,0 +1,493 @@
+{
+  "plants": [
+    {
+      "name": "Indoor",
+      "id": 1,
+      "description": "Indoor plants are great for enhancing indoor spaces.",
+      "file_path": "/images/Indoor/Birds of Paradise/1.jpg",
+      "sub_categories": [
+        {
+          "name": "Flowering Plants",
+          "id": 11,
+          "description": "Indoor flowering plants that add beauty to your space.",
+          "file_path": "/images/Indoor/Fiddle Leaf Fig/frame-17-1@2x.png",
+          "data": [
+            {
+              "name": "African Violet",
+              "id": 111,
+              "file_path": "/images/Indoor/Fiddle Leaf Fig/6.jpg"
+            },
+            {
+              "name": "Peace Lily",
+              "id": 112,
+              "file_path": "/images/Indoor/Fiddle Leaf Fig/7.jpg"
+            },
+            {
+              "name": "Bromeliad",
+              "id": 113,
+              "file_path": "/images/Indoor/Fiddle Leaf Fig/8.jpg"
+            },
+            {
+              "name": "Kalanchoe",
+              "id": 114,
+              "file_path": "/images/Indoor/Fiddle Leaf Fig/9.jpg"
+            },
+            { "name": "Orchid", "id": 115, "file_path": "/images/Indoor/Fiddle Leaf Fig/6.jpg" }
+          ]
+        },
+        {
+          "name": "Climbing Plants",
+          "id": 12,
+          "description": "Indoor climbing plants that can add greenery to walls and trellises.",
+          "file_path": "/images/Indoor/Birds of Paradise/1.jpg",
+          "data": [
+            { "name": "Pothos", "id": 121, "file_path": "/images/Indoor/Golden Pathos/11.jpg" },
+            {
+              "name": "Philodendron",
+              "id": 122,
+              "file_path": "/images/Indoor/Golden Pathos/12.png"
+            },
+            {
+              "name": "English Ivy",
+              "id": 123,
+              "file_path": "/images/Indoor/Golden Pathos/13.jpg"
+            },
+            { "name": "Hoya", "id": 124, "file_path": "/images/Indoor/Golden Pathos/14.jpg" },
+            {
+              "name": "String of Pearls",
+              "id": 125,
+              "file_path": "/images/Indoor/Golden Pathos/15.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Monstera",
+          "id": 13,
+          "description": "Indoor evergreen plants that stay green all year round.",
+          "file_path": "/images/Indoor/Monstera/16.jpg",
+          "data": [
+            {
+              "name": "ZZ Plant",
+              "id": 131,
+              "file_path": "/images/Indoor/Monstera/17.jpg"
+            },
+            {
+              "name": "Snake Plant",
+              "id": 132,
+              "file_path": "/images/Indoor/Monstera/18.jpg"
+            },
+            {
+              "name": "Rubber Plant",
+              "id": 133,
+              "file_path": "/images/Indoor/Monstera/19.jpg"
+            },
+            {
+              "name": "Cast Iron Plant",
+              "id": 134,
+              "file_path": "/images/Indoor/Monstera/20.jpg"
+            },
+            {
+              "name": "Dracaena",
+              "id": 135,
+              "file_path": "/images/Indoor/Monstera/16.jpg"
+            }
+          ]
+        },
+        {
+          "name": "String of Pearl",
+          "id": 14,
+          "description": "Indoor shrubs and bushes that provide a fuller appearance.",
+          "file_path": "/images/Indoor/Birds of Paradise/1.jpg",
+          "data": [
+            {
+              "name": "Ficus",
+              "id": 141,
+              "file_path": "/images/Indoor/String of Pearl/21.jpg"
+            },
+
+            {
+              "name": "Japanese Holly",
+              "id": 143,
+              "file_path": "/images/Indoor/String of Pearl/23.jpg"
+            },
+            {
+              "name": "Schefflera",
+              "id": 144,
+              "file_path": "/images/Indoor/String of Pearl/24.jpg"
+            },
+            {
+              "name": "Parlor Palm",
+              "id": 145,
+              "file_path": "/images/Indoor/String of Pearl/25.jpg"
+            },
+            {
+              "name": "Boxwood",
+              "id": 142,
+              "file_path": "/images/Indoor/String of Pearl/22.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outdoor",
+      "id": 2,
+      "description": "Outdoor plants thrive in natural outdoor environments.",
+      "file_path": "/images/frame-17-1@2x.png",
+      "sub_categories": [
+        {
+          "name": "Flowering Plants",
+          "id": 21,
+          "description": "Outdoor flowering plants that bring color to gardens.",
+          "file_path": "/images/frame-17-1@2x.png",
+          "data": [
+            { "name": "Rose", "id": 211, "file_path": "/images/outdoor/flowering plant/angelonia.jpg" },
+            { "name": "Tulip", "id": 212, "file_path": "/images/frame-17-1@2x.png" },
+            { "name": "Lily", "id": 213, "file_path": "/images/frame-17-1@2x.png" },
+            {
+              "name": "Sunflower",
+              "id": 214,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Marigold",
+              "id": 215,
+              "file_path": "/images/frame-17-1@2x.png"
+            }
+          ]
+        },
+        {
+          "name": "Climbing Plants",
+          "id": 22,
+          "description": "Outdoor climbing plants ideal for trellises and fences.",
+          "file_path": "/images/frame-17-1@2x.png",
+          "data": [
+            {
+              "name": "Clematis",
+              "id": 221,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Wisteria",
+              "id": 222,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Morning Glory",
+              "id": 223,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Honeysuckle",
+              "id": 224,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Trumpet Vine",
+              "id": 225,
+              "file_path": "/images/frame-17-1@2x.png"
+            }
+          ]
+        },
+        {
+          "name": "Evergreen Plants",
+          "id": 23,
+          "description": "Outdoor evergreen plants that provide year-round greenery.",
+          "file_path": "/images/frame-17-1@2x.png",
+          "data": [
+            { "name": "Pine", "id": 231, "file_path": "/images/frame-17-1@2x.png" },
+            { "name": "Spruce", "id": 232, "file_path": "/images/frame-17-1@2x.png" },
+            { "name": "Holly", "id": 233, "file_path": "/images/frame-17-1@2x.png" },
+            {
+              "name": "Juniper",
+              "id": 234,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            { "name": "Cypress", "id": 235, "file_path": "/images/frame-17-1@2x.png" }
+          ]
+        },
+        {
+          "name": "Shrubs and Bushes",
+          "id": 24,
+          "description": "Outdoor shrubs and bushes for a lush garden.",
+          "file_path": "/images/frame-17-1@2x.png",
+          "data": [
+            { "name": "Azalea", "id": 241, "file_path": "/images/frame-17-1@2x.png" },
+            {
+              "name": "Hydrangea",
+              "id": 242,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Boxwood",
+              "id": 243,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            { "name": "Lilac", "id": 244, "file_path": "/images/frame-17-1@2x.png" },
+            {
+              "name": "Forsythia",
+              "id": 245,
+              "file_path": "/images/frame-17-1@2x.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Succulents",
+      "id": 3,
+      "description": "Succulents are water-retaining plants that require minimal care.",
+      "file_path": "/images/frame-17-1@2x.png",
+      "sub_categories": [
+        {
+          "name": "Flowering Plants",
+          "id": 31,
+          "description": "Succulent flowering plants that offer a burst of color.",
+          "file_path": "/images/frame-17-1@2x.png",
+          "data": [
+            {
+              "name": "Echeveria",
+              "id": 311,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Aloe Vera",
+              "id": 312,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Kalanchoe",
+              "id": 313,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            { "name": "Sedum", "id": 314, "file_path": "/images/frame-17-1@2x.png" },
+            {
+              "name": "Crassula",
+              "id": 315,
+              "file_path": "/images/frame-17-1@2x.png"
+            }
+          ]
+        },
+        {
+          "name": "Climbing Plants",
+          "id": 32,
+          "description": "Climbing succulents suitable for vertical spaces.",
+          "file_path": "/images/frame-17-1@2x.png",
+          "data": [
+            {
+              "name": "String of Bananas",
+              "id": 321,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "String of Hearts",
+              "id": 322,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            { "name": "Hoya", "id": 323, "file_path": "/images/frame-17-1@2x.png" },
+            {
+              "name": "Creeping Jenny",
+              "id": 324,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Dischidia",
+              "id": 325,
+              "file_path": "/images/frame-17-1@2x.png"
+            }
+          ]
+        },
+        {
+          "name": "Evergreen Plants",
+          "id": 33,
+          "description": "Evergreen succulents that remain vibrant throughout the year.",
+          "file_path": "/images/frame-17-1@2x.png",
+          "data": [
+            { "name": "Agave", "id": 331, "file_path": "/images/frame-17-1@2x.png" },
+            { "name": "Aloe", "id": 332, "file_path": "/images/frame-17-1@2x.png" },
+            {
+              "name": "Jade Plant",
+              "id": 333,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Echeveria",
+              "id": 334,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Sempervivum",
+              "id": 335,
+              "file_path": "/images/frame-17-1@2x.png"
+            }
+          ]
+        },
+        {
+          "name": "Shrubs and Bushes",
+          "id": 34,
+          "description": "Succulent shrubs and bushes for a fuller appearance.",
+          "file_path": "/images/frame-17-1@2x.png",
+          "data": [
+            { "name": "Sage", "id": 341, "file_path": "/images/frame-17-1@2x.png" },
+            {
+              "name": "Pencil Cactus",
+              "id": 342,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            { "name": "Cactus", "id": 343, "file_path": "/images/frame-17-1@2x.png" },
+            {
+              "name": "Aloe Vera",
+              "id": 344,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Jade Plant",
+              "id": 345,
+              "file_path": "/images/frame-17-1@2x.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artificial",
+      "id": 4,
+      "description": "Artificial plants require no maintenance and last forever.",
+      "file_path": "/images/frame-17-1@2x.png",
+      "sub_categories": [
+        {
+          "name": "Flowering Plants",
+          "id": 41,
+          "description": "Artificial flowering plants that add color without the need for care.",
+          "file_path": "/images/frame-17-1@2x.png",
+          "data": [
+            {
+              "name": "Silk Orchid",
+              "id": 411,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Artificial Rose",
+              "id": 412,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Silk Lily",
+              "id": 413,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Fake Tulip",
+              "id": 414,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Silk Sunflower",
+              "id": 415,
+              "file_path": "/images/frame-17-1@2x.png"
+            }
+          ]
+        },
+        {
+          "name": "Climbing Plants",
+          "id": 42,
+          "description": "Artificial climbing plants for decorative purposes.",
+          "file_path": "/images/frame-17-1@2x.png",
+          "data": [
+            {
+              "name": "Fake Ivy",
+              "id": 421,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Silk Wisteria",
+              "id": 422,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Artificial Morning Glory",
+              "id": 423,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Fake Clematis",
+              "id": 424,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Silk Honeysuckle",
+              "id": 425,
+              "file_path": "/images/frame-17-1@2x.png"
+            }
+          ]
+        },
+        {
+          "name": "Evergreen Plants",
+          "id": 43,
+          "description": "Artificial evergreen plants that look fresh year-round.",
+          "file_path": "/images/frame-17-1@2x.png",
+          "data": [
+            {
+              "name": "Fake Pine",
+              "id": 431,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Artificial Juniper",
+              "id": 432,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Silk Spruce",
+              "id": 433,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Fake Holly",
+              "id": 434,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Artificial Cypress",
+              "id": 435,
+              "file_path": "/images/frame-17-1@2x.png"
+            }
+          ]
+        },
+        {
+          "name": "Shrubs and Bushes",
+          "id": 44,
+          "description": "Artificial shrubs and bushes for easy maintenance.",
+          "file_path": "/images/frame-17-1@2x.png",
+          "data": [
+            {
+              "name": "Silk Boxwood",
+              "id": 441,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Fake Hydrangea Bush",
+              "id": 442,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Artificial Azalea",
+              "id": 443,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Silk Forsythia",
+              "id": 444,
+              "file_path": "/images/frame-17-1@2x.png"
+            },
+            {
+              "name": "Fake Lilac",
+              "id": 445,
+              "file_path": "/images/frame-17-1@2x.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
